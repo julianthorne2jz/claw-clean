@@ -1,0 +1,11 @@
+{
+  "name": "claw-clean",
+  "version": "1.0.0",
+  "description": "Deep cleaner for agent workspaces",
+  "main": "index.js",
+  "bin": {
+    "claw-clean": "./index.js"
+  },
+  "author": "Julian Thorne",
+  "license": "MIT"
+}
