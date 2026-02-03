@@ -1,11 +1,18 @@
 {
   "name": "claw-clean",
   "version": "1.0.0",
-  "description": "Deep cleaner for agent workspaces",
+  "description": "Deep cleaner for agent workspaces - remove node_modules, dist, .cache and reclaim disk space",
   "main": "index.js",
   "bin": {
     "claw-clean": "./index.js"
   },
+  "scripts": {
+    "test": "node index.js help"
+  },
+  "keywords": ["cli", "clean", "workspace", "node_modules", "agent", "disk"],
   "author": "Julian Thorne",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
